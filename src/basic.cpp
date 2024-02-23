@@ -8,14 +8,6 @@
 #include "basic.h"
 #include <vector>
 
-
-/* Fonction template */
-/* Faire le plus générique possible , s'adapte sur tout type */
-template <typename T> T minimum(T a, T b)
-{
-	return (a < b ? a : b);
-}
-
 int moyenne(unsigned int nb_notes)
 {
 	vector <float> notes (nb_notes); //Comme un tableau mais sans limite de taille
@@ -74,7 +66,7 @@ void alloc_dynamique()
 }
 
 /* Mot clé auto permet de laisser le compilateur choisir le type selon paramètre */
-auto f(auto n)
+auto f(int n)
 {
 	return 5 + n;
 }
