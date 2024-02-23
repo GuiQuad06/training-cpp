@@ -13,10 +13,16 @@ using namespace std;
 
 #define LINE_MAX 15
 
+template <typename T>
+inline T minimum(T a, T b)
+{
+	return (a < b ? a : b);
+}
+void swap(int & a, int & b);
+
 int moyenne(unsigned int nb_notes);
 void alloc_dynamique();
-template <typename T> T minimum(T a, T b);
-void swap(int & a, int & b);
+template <typename T>
 void print(initializer_list<float> val);
 string mail(string nom, string prenom);
 int nb_char(string str, char c);

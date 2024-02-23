@@ -23,4 +23,4 @@ set(HEADERS
 )
 
 # Create the executable
-add_executable(training ${SOURCES} ${HEADERS})
+add_executable(training-cpp ${SOURCES} ${HEADERS})
