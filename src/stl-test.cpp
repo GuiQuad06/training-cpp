@@ -108,8 +108,8 @@ int test_case_stack()
 /** Stack is a superset of seq containers for FIFO */
 int test_case_queue()
 {
-	queue < string, deque<string> > qu1;
-	char * str = "";
+	queue<string, deque<string>> qu1;
+	char str[2];
 	const string str_base = "I am the number ";
 
 	for(int i = 0 ; i < 10 ; i++) {
