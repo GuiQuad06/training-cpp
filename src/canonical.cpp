@@ -23,6 +23,6 @@ T::T(const T &other) {
 
 T& T::operator=(const T &other) {
 	// TODO Auto-generated method stub
-
+	return *this;
 }
 
